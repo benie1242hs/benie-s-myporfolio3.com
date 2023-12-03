@@ -1,6 +1,6 @@
 <a href="index.html">index html
 </a>
-<a href="css.main">css main
+<a href="main.css">main css
 </a>
-<a href="css.sidebar">css sidebar 
+<a href="sidebar.css">sidebar css 
 </a>
