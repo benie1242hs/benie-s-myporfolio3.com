@@ -1,0 +1,242 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: 0;
+}
+
+  
+  #menu-list{
+    width: 302px;
+    height: 100dvh;
+    font-size: larger;
+    padding-right: 20px 15px;
+    text-align: left;
+    backdrop-filter: blur(5px);
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    position:fixed;
+    top:0;
+    left:0;
+  }
+
+ 
+  .home{
+    margin-top: 20px;
+    display:inline-block;
+    padding: 5px 30px;
+    line-height: 40px;
+    transition: 0.1;
+    font-size: larger;
+  }
+  .home a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .home :active{
+    color:blueviolet;
+    opacity: 0.5;
+  }
+  .home :hover{
+    opacity: 0.8;
+    color:blueviolet;
+
+  }
+
+  .about{
+    color:#fff;
+    margin-top: 20px;
+    display: block;
+    padding: 5px 30px;
+    line-height: 40px;
+    font-size:larger;
+  }
+
+  .about a{
+    text-decoration: none;
+    color: white;
+  }
+  .about :hover{
+        transition: 0.3 ease;
+        color:blueviolet;
+
+  }
+  .resume{
+    color:#fff;
+    margin-top: 20px;
+    text-decoration:none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 40px;
+    
+  }
+
+  .resume a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+  }
+  .resume :hover{
+    transition: 0.3 ease;
+    color:blueviolet;
+
+  }
+  
+  .contact{
+    color:#fff;
+    margin-top: 20px;
+    text-decoration:none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 40px;
+  }
+  .contact a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+  }
+  .contact :hover{
+    transition: 0.3 ease;
+    color:blueviolet;
+  }
+
+
+  .home .font-home,
+  .about .font-about,
+  .resume .font-resume,
+  .contact .font-contact
+  {
+    background-color: blueviolet;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+    display: inline-block;
+
+  }
+
+  .home .font-home .home-style{
+    width: 11px;
+    height: 2px;
+    background-color: black;
+    margin-top:3px;
+    margin-left:4px;
+    padding-top: 3px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+
+  }
+    .home .font-home .home-style1{
+    width:11px;
+    height: 2px;
+    background-color: black;
+    margin-top:1px;
+    padding-bottom: 5px;
+    margin-left:4px;
+    }
+    .home .font-home .home-style2{
+    width: 5px;
+    height: 3px;
+    background-color: blueviolet;
+    margin-left:6px;
+    margin-top:-4px;
+
+    }
+
+
+    .about .font-about .about-style{
+      width: 4px;
+      height: 7px;
+      background-color:black;
+      margin-left:7px;
+      margin-top: 3px;
+      padding-left:2px;
+     
+    }
+    .about .font-about .about-style1{
+      width: 4px;
+      height: 5px;
+      background-color:black;
+      margin-top:1px;
+      margin-left:7px;
+      border-radius:11px;
+      padding-left:2px;
+   
+    }
+
+/* resume section */
+    .resume .font-resume .resume-style{
+      width: 11px;
+      height: 13px;
+      background-color:black;
+      margin-top:3px;
+      margin-left:4px;
+      border-radius: 1px;
+
+    }
+    .resume .font-resume .resume-style1{
+      width: 7px;
+      height: 1px;
+      background-color: blueviolet;
+      margin-left:4px;
+      margin-top:-10px;
+
+
+    }
+
+    .resume .font-resume .resume-style2{
+      width: 9px;
+      height: 1px;
+      background-color: blueviolet;
+      margin-left:4px;
+      margin-top: 2px;
+    }
+    
+    .resume .font-resume .resume-style3{
+      width: 9px;
+      height: 1px;
+      background-color: blueviolet;
+      margin-left:4px;
+      margin-top: 2px;
+    }
+    .contact .font-contact .contact-style{
+      width: 10px;
+      height: 10px;
+      background-color:black;
+      margin-left:6px;
+      margin-top: 3px;
+      border-radius:10px;
+    }
+    .contact .font-contact .contact-style1{
+      width: 7px;
+      height: 7px;
+      background-color:blueviolet;
+      margin-left:4px;
+      margin-top:-8px;
+      border-radius: 10px;
+    }
+    .contact .font-contact .contact-style2{
+      width: 5px;
+      height: 5px;
+      background-color:black;
+      margin-left:4px;
+      margin-top:-9px;
+      border-radius: 10px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+
+    }
+    .contact .font-contact .contact-style3{
+      width: 5px;
+      height: 5px;
+      background-color:black;
+      margin-left:5px;
+      margin-top:2px;
+      border-radius: 10px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+
+    }

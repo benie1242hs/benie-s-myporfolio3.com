@@ -1,0 +1,163 @@
+<html lang="en">
+  <!DOCTYPE html>
+  <title>
+Benie's Myporfolio2
+</title>    
+<head>
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="sidebar.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+   <!-- loader    -->
+<div id="loader" class="loader"></div>
+<Style>
+#loader {
+                background: rgb(10, 10, 10) url("img/apple-touch-icon.png") no-repeat center center;
+                height: 100vh;
+                width: 100%;
+                position:fixed;
+                text-align: center;
+                Z-index: 100;
+                display:flex;
+                background-size: 200px;
+                
+            }
+        
+            .loader {
+                position:fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 30px;
+                width: 30px;
+                display:inline;
+                justify-content: center;
+
+            }
+            
+            .disppear {
+                animation: vanish 3.5s forwards;
+                opacity:  0.5s;
+            
+            }
+            
+            @keyframes vanish {
+                100% {
+                    visibility: hidden;
+                    opacity: 0;
+            }
+        }
+            </style>
+            <Script>
+            var loader = document.querySelector(".loader")
+window.addEventListener("load", vanish);
+
+function vanish() {
+    loader.classList.add("disppear");
+
+}
+
+</Script>
+    <menu-sidebar>
+      <div class="menu-list" id="menu-list">
+        <div class="profile-pic">
+          <img src="img/b.jpg" width=150px, height=170px style="border-radius: 10px; margin-left: 60px;  margin-top:20px;">
+         </div>
+
+         <div class="profile-text">
+           <span style="color: white; margin-left: 45px; margin-top: 30px;">Benedeck Dealadgon I
+           </span>
+         </div>
+
+
+           <div class="home">
+          <a href="index.html">Home
+          </a>
+          <div class="font-home">
+            <div class="home-style">
+            </div>
+            <div class="home-style1">
+            </div>
+            <div class="home-style2">
+            </div>
+          </div>
+        </div>
+          
+          <div class="about">
+          <a href="about.html">About
+          </a>
+          <div class="font-about">
+          <div class="about-style">
+          </div>
+          <div class="about-style1">
+          </div>
+          <div class="about-style2">
+          </div>
+        </div>
+      </div>
+
+          <div class="resume">
+          <a href="resume.html">Resume
+          </a>
+          <div class="font-resume">
+          <div class="resume-style">
+          </div>
+          <div class="resume-style1">
+          </div>
+          <div class="resume-style2">
+          </div>
+          <div class="resume-style3">
+          </div>
+        </div>
+      </div>
+
+
+          <div class="contact">
+          <a href="contact.html">Contact
+          </a>
+          <div class="font-contact">
+          <div class="contact-style">
+          </div>
+          <div class="contact-style1">
+          </div>
+          <div class="contact-style2">
+          </div>
+          <div class="contact-style3">
+          </div>
+        </div>
+      </div>
+     </div> 
+      </menu-sidebar>
+<!-- end of sidebar -->
+
+<!-- Content -->
+<div class="main" id="main">
+<div class="background4" id="background4">
+</div>
+
+  <div class="contact-text">
+  <p>Contact: Location:
+    Quezon City
+    
+    Email:
+    Bdealagdon28@gmail.com
+  </p>
+  </div>
+  
+</body>
+</main>
+<footer id="footer">
+<div class="container">
+<div class="copyright">
+  &copy; Copyright <strong><span>Benie's Portfolio</span></strong>
+</div>
+<div class="credits">
+  Designed by <a href="#">Benedeck dealagdon</a>
+</div>
+</div>
+</footer>
+</html>
